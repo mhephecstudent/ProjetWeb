@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jvY1HJheGk8=",
+  "dgSpecHash": "8xpPXnn408o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hadwi\\source\\repos\\ArtMarketplace\\ArtMarketplace.csproj",
+  "projectFilePath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\ArtMarketplace\\ArtMarketplace.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hadwi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\hadwi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -119,7 +119,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Le package 'Microsoft.AspNet.Identity.Core 2.2.4' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net8.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         "net8.0"

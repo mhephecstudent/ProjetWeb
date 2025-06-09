@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hadwi\\source\\repos\\BL\\BusinessLogicLayer.csproj": {}
+    "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\BL\\BusinessLogicLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hadwi\\source\\repos\\BL\\BusinessLogicLayer.csproj": {
+    "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\BL\\BusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hadwi\\source\\repos\\BL\\BusinessLogicLayer.csproj",
+        "projectUniqueName": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\BL\\BusinessLogicLayer.csproj",
         "projectName": "BusinessLogicLayer",
-        "projectPath": "C:\\Users\\hadwi\\source\\repos\\BL\\BusinessLogicLayer.csproj",
+        "projectPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\BL\\BusinessLogicLayer.csproj",
         "packagesPath": "C:\\Users\\hadwi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hadwi\\source\\repos\\BL\\obj\\",
+        "outputPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hadwi\\source\\repos\\DAL\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\hadwi\\source\\repos\\DAL\\DataAccessLayer.csproj"
+              "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\DAL\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\DAL\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\hadwi\\source\\repos\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\hadwi\\source\\repos\\Domain\\Domain.csproj"
+              "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\hadwi\\source\\repos\\Dtos\\Dtos.csproj": {
-                "projectPath": "C:\\Users\\hadwi\\source\\repos\\Dtos\\Dtos.csproj"
+              "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Dtos\\Dtos.csproj": {
+                "projectPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Dtos\\Dtos.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\hadwi\\source\\repos\\DAL\\DataAccessLayer.csproj": {
+    "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\DAL\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hadwi\\source\\repos\\DAL\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\DAL\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\hadwi\\source\\repos\\DAL\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\DAL\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\hadwi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hadwi\\source\\repos\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,8 +117,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hadwi\\source\\repos\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\hadwi\\source\\repos\\Domain\\Domain.csproj"
+              "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Domain\\Domain.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\hadwi\\source\\repos\\Domain\\Domain.csproj": {
+    "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hadwi\\source\\repos\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\hadwi\\source\\repos\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\hadwi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hadwi\\source\\repos\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -233,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\hadwi\\source\\repos\\Dtos\\Dtos.csproj": {
+    "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Dtos\\Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hadwi\\source\\repos\\Dtos\\Dtos.csproj",
+        "projectUniqueName": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Dtos\\Dtos.csproj",
         "projectName": "Dtos",
-        "projectPath": "C:\\Users\\hadwi\\source\\repos\\Dtos\\Dtos.csproj",
+        "projectPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Dtos\\Dtos.csproj",
         "packagesPath": "C:\\Users\\hadwi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hadwi\\source\\repos\\Dtos\\obj\\",
+        "outputPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

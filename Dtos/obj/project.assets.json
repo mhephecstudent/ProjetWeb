@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hadwi\\source\\repos\\Dtos\\Dtos.csproj",
+      "projectUniqueName": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Dtos\\Dtos.csproj",
       "projectName": "Dtos",
-      "projectPath": "C:\\Users\\hadwi\\source\\repos\\Dtos\\Dtos.csproj",
+      "projectPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Dtos\\Dtos.csproj",
       "packagesPath": "C:\\Users\\hadwi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hadwi\\source\\repos\\Dtos\\obj\\",
+      "outputPath": "C:\\Users\\hadwi\\Documents\\GitHub\\ProjetWeb\\Dtos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
