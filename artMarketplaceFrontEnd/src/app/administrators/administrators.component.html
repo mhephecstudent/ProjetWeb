@@ -1,0 +1,54 @@
+<div class="admin-dashboard">
+    
+    <!-- User Management Section -->
+    <section class="section user-management">
+      <h2>User Management</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>User ID</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{ user.userID }}</td>
+            <td>{{ user.fullName }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.role }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  
+    <!-- Content Moderation Section -->
+    <section class="section content-moderation">
+      <h2>Content Moderation</h2>
+      <p>
+        Review and approve product listings to ensure they meet platform guidelines. Remove any inappropriate content.
+      </p>
+      <button class="btn">Moderate Content</button>
+    </section>
+  
+    <!-- Product Management Section -->
+    <section class="section product-management">
+      <h2>Product Management</h2>
+      <p>
+        Approve or delete products listed by artisans.
+      </p>
+      <button class="btn">Manage Products</button>
+    </section>
+  
+    <!-- Analytics Section -->
+    <section class="section analytics">
+      <h2>Analytics & Monitoring</h2>
+      <p>
+        Monitor order statistics, product trends, and user activities to gain actionable insights.
+      </p>
+      <button class="btn">View Analytics</button>
+    </section>
+  </div>
+  

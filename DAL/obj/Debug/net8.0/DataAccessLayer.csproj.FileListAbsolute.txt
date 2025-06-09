@@ -1,0 +1,15 @@
+C:\Users\hadwi\source\repos\DAL\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\hadwi\source\repos\DAL\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\hadwi\source\repos\DAL\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\hadwi\source\repos\DAL\bin\Debug\net8.0\Domain.dll
+C:\Users\hadwi\source\repos\DAL\bin\Debug\net8.0\Domain.pdb
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\hadwi\source\repos\DAL\obj\Debug\net8.0\ref\DataAccessLayer.dll

@@ -1,0 +1,78 @@
+<div class="customer-page">
+    <!-- Browse Marketplace Section -->
+    <section id="browse-marketplace" class="section">
+      <h2>Browse Marketplace</h2>
+      <p>
+        Explore our diverse platform of products. Filter products by category, price, and artisan to find exactly what you need.
+      </p>
+      <!-- Example filters - you can later bind these to Angular form controls -->
+      <div class="filters">
+        <label for="category">Category:</label>
+        <select id="category">
+          <option value="">All</option>
+          <option value="jewelry">Jewelry</option>
+          <option value="clothing">Clothing</option>
+          <option value="home">Home Decor</option>
+        </select>
+  
+        <label for="price">Price Range:</label>
+        <select id="price">
+          <option value="">All</option>
+          <option value="0-50">$0 - $50</option>
+          <option value="50-100">$50 - $100</option>
+          <option value="100+">$100+</option>
+        </select>
+  
+        <label for="artisan">Artisan:</label>
+        <input type="text" id="artisan" placeholder="Search artisan" />
+      </div>
+      <!-- You could add a product list here -->
+      <div class="product-list">
+        <p>Product cards will appear here...</p>
+      </div>
+    </section>
+  
+    <!-- Leave Reviews Section -->
+    <section id="leave-reviews" class="section">
+      <h2>Leave Reviews</h2>
+      <p>
+        Share your feedback and ratings for products you have purchased. Your review helps artisans improve their products and guides future buyers.
+      </p>
+      <!-- Example review form -->
+      <form id="review-form">
+        <div class="form-group">
+          <label for="review-rating">Rating:</label>
+          <select id="review-rating">
+            <option value="">Select a rating</option>
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Fair</option>
+            <option value="1">1 - Poor</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="review-ProductId">Product Id:</label>
+
+        </div>
+        <div class="form-group">
+          <label for="review-comments">Comments:</label>
+          <textarea id="review-comments" rows="4" placeholder="Write your review here..."></textarea>
+        </div>
+        <button type="submit">Submit Review</button>
+      </form>
+    </section>
+  
+    <!-- Track Orders Section -->
+    <section id="track-orders" class="section">
+      <h2>Track Orders</h2>
+      <p>
+        Check the status of your orders, including shipping and delivery details. Stay updated on the progress of your purchases.
+      </p>
+      <!-- Example order tracking area -->
+      <div class="order-status">
+        <p>Order tracking information will appear here...</p>
+      </div>
+    </section>
+  </div>
+  

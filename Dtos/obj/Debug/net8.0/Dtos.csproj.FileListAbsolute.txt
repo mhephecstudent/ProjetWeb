@@ -1,0 +1,11 @@
+C:\Users\hadwi\source\repos\Dtos\bin\Debug\net8.0\Dtos.deps.json
+C:\Users\hadwi\source\repos\Dtos\bin\Debug\net8.0\Dtos.dll
+C:\Users\hadwi\source\repos\Dtos\bin\Debug\net8.0\Dtos.pdb
+C:\Users\hadwi\source\repos\Dtos\obj\Debug\net8.0\Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hadwi\source\repos\Dtos\obj\Debug\net8.0\Dtos.AssemblyInfoInputs.cache
+C:\Users\hadwi\source\repos\Dtos\obj\Debug\net8.0\Dtos.AssemblyInfo.cs
+C:\Users\hadwi\source\repos\Dtos\obj\Debug\net8.0\Dtos.csproj.CoreCompileInputs.cache
+C:\Users\hadwi\source\repos\Dtos\obj\Debug\net8.0\Dtos.dll
+C:\Users\hadwi\source\repos\Dtos\obj\Debug\net8.0\refint\Dtos.dll
+C:\Users\hadwi\source\repos\Dtos\obj\Debug\net8.0\Dtos.pdb
+C:\Users\hadwi\source\repos\Dtos\obj\Debug\net8.0\ref\Dtos.dll

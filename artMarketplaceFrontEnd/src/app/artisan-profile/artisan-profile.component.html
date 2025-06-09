@@ -1,0 +1,21 @@
+<div class="artisan-header">
+  <img [src]="artisan.photoUrl" alt="{{ artisan.name }}" class="artisan-photo" />
+
+  <div class="artisan-info">
+    <h1>{{ artisan.name }}</h1>
+    <p class="artisan-location">
+      <i class="fa fa-map-marker-alt"></i> {{ artisan.location }}
+    </p>
+    <p class="artisan-role">Role: <span class="tag">{{ artisan.role }}</span></p>
+    <p class="artisan-bio">"{{ artisan.bio }}"</p>
+
+    <div *ngIf="artisan.specialties?.length">
+      <p class="artisan-specialties">
+        <strong>Specialties:</strong>
+      </p>
+      <ul class="artisan-tags">
+        <li *ngFor="let s of artisan.specialties" class="tag">{{ s }}</li>
+      </ul>
+    </div>
+  </div>
+</div>

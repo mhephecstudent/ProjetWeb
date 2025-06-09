@@ -1,0 +1,36 @@
+<h2>Register</h2>
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label>Full Name:</label>
+    <input type="text" name="fullName" [(ngModel)]="fullName" required>
+  </div>
+
+  <div>
+    <label>Email:</label>
+    <input type="email" name="email" [(ngModel)]="email" required>
+  </div>
+
+  <div>
+    <label>Password:</label>
+    <input type="password" name="password" [(ngModel)]="password" required>
+  </div>
+
+  <div>
+    <label>Repeat Password:</label>
+    <input type="password" name="repeatPassword" [(ngModel)]="repeatPassword" required>
+  </div>
+
+  <div>
+    <label>Role:</label>
+    <select name="role" [(ngModel)]="role" required>
+      <option value="Customer">Customer</option>
+      <option value="Artisan">Artisan</option>
+    </select>
+  </div>
+
+  <div *ngIf="passwordMismatch" style="color: red; margin-bottom: 10px;">
+    Passwords do not match.
+  </div>
+
+  <button type="submit">Register</button>
+</form>

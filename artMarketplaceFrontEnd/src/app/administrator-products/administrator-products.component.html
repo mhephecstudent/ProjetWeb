@@ -1,0 +1,66 @@
+<h1>{{ title }}</h1>
+
+<!-- Controls: Search, Filter, and Sort -->
+<div class="product-controls">
+  <input
+    type="text"
+    placeholder="Search products..."
+    [(ngModel)]="searchTerm"
+    (ngModelChange)="updateDisplayedAdministratorProducts()"
+  />
+
+  <select [(ngModel)]="selectedCategory" (ngModelChange)="updateDisplayedAdministratorProducts()">
+    <option value="">All Categories</option>
+    <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+  </select>
+
+  <select [(ngModel)]="sortOption" (ngModelChange)="updateDisplayedAdministratorProducts()">
+    <option value="priceAsc">Price: Low to High</option>
+    <option value="priceDesc">Price: High to Low</option>
+    <option value="ratingDesc">Rating: High to Low</option>
+  </select>
+</div>
+
+<!-- Product List -->
+<div class="product-list">
+  <div *ngIf="displayedProducts && displayedProducts.length; else noData">
+    <div *ngFor="let product of displayedProducts" class="product-card">
+      <!-- Left: Product Image -->
+      <div class="product-image-wrapper">
+        <img [src]="product.imageUrl" alt="{{ product.name }}" class="product-image" />
+      </div>
+
+      <!-- Right: Product Info -->
+      <div class="product-details">
+        <h3 class="product-name">{{ product.name }}</h3>
+        <p class="product-price">{{ product.price | currency }}</p>
+        <p class="product-description">{{ product.description }}</p>
+
+        <div class="artisan-info" *ngIf="product.artisan">
+          <strong>Artisan:</strong> {{ product.artisan.name }}
+        </div>
+
+        <div class="customization-options" *ngIf="product.customizationOptions?.length">
+          <strong>Customization Options:</strong>
+          <ul>
+            <li *ngFor="let option of product.customizationOptions">{{ option }}</li>
+          </ul>
+        </div>
+
+        <div class="reviews" *ngIf="product.reviews?.length">
+          <h4>Customer Reviews:</h4>
+          <div *ngFor="let review of product.reviews">
+            <p>
+              <span class="review-rating">{{ review.rating }} ★</span> - {{ review.comment }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<ng-template #noData>
+  <p>No products available.</p>
+</ng-template>

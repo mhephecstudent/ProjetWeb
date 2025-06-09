@@ -1,0 +1,43 @@
+.artisan-header {
+  color: #e03535;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.artisan-location {
+  color: #777;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.artisan-role {
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.artisan-tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.section-title {
+  margin: 2rem 0 1rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #222;
+}

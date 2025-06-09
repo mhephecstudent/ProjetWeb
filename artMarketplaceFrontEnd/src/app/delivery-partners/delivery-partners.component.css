@@ -1,0 +1,28 @@
+.delivery-partner-page {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .feature {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #222;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
